@@ -1,6 +1,7 @@
 # TFmini-ESPHome
 Custom Sensor Component for ESPHome TFmini Plus LiDAR
 
+
 #**************** UART ********************
 uart:
   tx_pin: 1 #D8
