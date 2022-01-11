@@ -1,7 +1,7 @@
 esphome:
   # ... [Other options]
   includes:
-    - TFMini.h
+    - TFmini.h
 
 
 #**************** UART ********************
