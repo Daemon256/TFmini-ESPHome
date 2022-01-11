@@ -15,7 +15,6 @@ uart:
 #******************** Sensor *********************
 sensor:
   - platform: custom
-#    id: distance
     lambda: |-
       auto distance_sensor = new TFminiSensor(1000, id(uart_bus));
       App.register_component(distance_sensor);
@@ -24,6 +23,5 @@ sensor:
       id: distance_value
       name: "Distance sensor"
       unit_of_measurement: "cm"
-#      accuracy_decimals: 2
       filters:
         - median:
